@@ -62,7 +62,7 @@ if DATABASE_URL:
 
 UPSTREAM_REPO = environ.get('UPSTREAM_REPO', '')
 if len(UPSTREAM_REPO) == 0:
-    UPSTREAM_REPO = 'https://github.com/MY-HERO-OP/ltest'
+    UPSTREAM_REPO = 'https://github.com/MY-HERO-OP/v1-latest'
 
 UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH', '')
 if len(UPSTREAM_BRANCH) == 0:
